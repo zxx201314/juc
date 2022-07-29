@@ -5,24 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b484f776-d6e3-4049-afd6-69284c39ea32" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/juc.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zhang/juc/future/FutureDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/zhang/juc/future/FutureDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zhang/juc/lock8/LockDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/zhang/juc/lock8/LockDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zhang/juc/readwritelock/ReadWriteLockDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/zhang/juc/readwritelock/ReadWriteLockDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zhang/juc/stream/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/zhang/juc/stream/Test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zhang/juc/threadpool/Demo01.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/zhang/juc/threadpool/Demo01.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zhang/juc/unsafe/ListTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/zhang/juc/unsafe/ListTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zhang/juc/valotile/ValotileDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/zhang/juc/valotile/ValotileDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zhang/providerandconsumer/Chicken.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/zhang/providerandconsumer/Chicken.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zhang/providerandconsumer/Consumer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/zhang/providerandconsumer/Consumer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zhang/providerandconsumer/Provider.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/zhang/providerandconsumer/Provider.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zhang/providerandconsumer/SyncContainer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/zhang/providerandconsumer/SyncContainer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zhang/providerandconsumer/TestPc.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/zhang/providerandconsumer/TestPc.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -136,31 +121,21 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\templete\juc\src\main\java\com\zhang\juc" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SpinLockDemo">
-    <configuration name="ContainerNotSafeDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zhang.jmm.learncollection.ContainerNotSafeDemo" />
-      <module name="juc" />
+  <component name="RunManager" selected="Spring Boot.RedisSpringBootApplication">
+    <configuration name="PhoneCodeDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zhang.redis.phonecodedemo.PhoneCodeDemo" />
+      <module name="redis" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.zhang.jmm.learncollection.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SolveCasABA" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zhang.jmm.learncas.SolveCasABA" />
-      <module name="juc" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.zhang.jmm.learncas.*" />
+          <option name="PATTERN" value="com.zhang.redis.phonecodedemo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -181,39 +156,57 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestPc" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zhang.providerandconsumer.TestPc" />
-      <module name="juc" />
+    <configuration name="RestTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="redis" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.zhang.providerandconsumer.*" />
+          <option name="PATTERN" value="com.zhang.redis.controller.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.zhang.redis.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.zhang.redis.controller.RestTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="VolatileDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zhang.jmm.learnvolatile.VolatileDemo" />
-      <module name="juc" />
+    <configuration name="RestTest.setToRedis" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="redis" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.zhang.jmm.learnvolatile.*" />
+          <option name="PATTERN" value="com.zhang.redis.controller.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.zhang.redis.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.zhang.redis.controller.RestTest" />
+      <option name="METHOD_NAME" value="setToRedis" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RedisSpringBootApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="redis" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zhang.redis.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zhang.redis.RedisSpringBootApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.RedisSpringBootApplication" />
+        <item itemvalue="JUnit.RestTest.setToRedis" />
+        <item itemvalue="JUnit.RestTest" />
+        <item itemvalue="Application.PhoneCodeDemo" />
         <item itemvalue="Application.SpinLockDemo" />
-        <item itemvalue="Application.ContainerNotSafeDemo" />
-        <item itemvalue="Application.SolveCasABA" />
-        <item itemvalue="Application.VolatileDemo" />
-        <item itemvalue="Application.TestPc" />
       </list>
     </recent_temporary>
   </component>
@@ -275,6 +268,17 @@
       <window_info anchor="right" id="Maven" order="5" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="6" weight="0.25" />
     </layout-to-restore>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/redis/src/main/java/com/zhang/redis/controller/RedisTestController.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/com/zhang/juc/Test.java" />
